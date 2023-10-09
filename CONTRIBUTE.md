@@ -2,7 +2,7 @@
 
 ## Commits
 
-We are using semantic versioning for this repository. Prefix your commits depending on your change. For more information refer to <a href="https://juhani.gitlab.io/go-semrel-gitlab/commit-message/" target="_blank">https://juhani.gitlab.io/go-semrel-gitlab/commit-message/</a>
+We are using semantic versioning for this repository. Prefix your commits depending on your change. For more information refer to <a href="https://www.conventionalcommits.org/en/v1.0.0/#specification" target="_blank">https://www.conventionalcommits.org/en/v1.0.0/#specification</a>
 
 ## Coding Style
 
