@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cee6a97af530284e57d497eded87f267",
+    "content-hash": "074a1d07cd0f582fdb98d61284a13b09",
     "packages": [
         {
             "name": "byteshard/debug",
             "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/byteshard/debug.git",
-                "reference": "f721f089f49b226b338c183a5b3b6d15dc7b4b59"
+                "url": "https://github.com/bespin-studios/byteshard-debug.git",
+                "reference": "102017288749fe1da687572b6200d7212d19e2de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/byteshard/debug/zipball/f721f089f49b226b338c183a5b3b6d15dc7b4b59",
-                "reference": "f721f089f49b226b338c183a5b3b6d15dc7b4b59",
+                "url": "https://api.github.com/repos/bespin-studios/byteshard-debug/zipball/102017288749fe1da687572b6200d7212d19e2de",
+                "reference": "102017288749fe1da687572b6200d7212d19e2de",
                 "shasum": ""
             },
             "require": {
@@ -44,8 +44,8 @@
             ],
             "description": "Debug helper for the byteShard framework",
             "support": {
-                "issues": "https://github.com/byteshard/debug/issues",
-                "source": "https://github.com/byteshard/debug/tree/v1.0.1"
+                "issues": "https://github.com/bespin-studios/byteshard-debug/issues",
+                "source": "https://github.com/bespin-studios/byteshard-debug/tree/v1.0.1"
             },
             "time": "2023-05-08T12:22:09+00:00"
         },
@@ -54,13 +54,13 @@
             "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/byteshard/locale.git",
-                "reference": "69fa65c90d456fc4dce59e0a307af60d62b59a15"
+                "url": "https://github.com/bespin-studios/byteshard-locale.git",
+                "reference": "c02934390fe5eead28f4e6b63c70047c316c88bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/byteshard/locale/zipball/69fa65c90d456fc4dce59e0a307af60d62b59a15",
-                "reference": "69fa65c90d456fc4dce59e0a307af60d62b59a15",
+                "url": "https://api.github.com/repos/bespin-studios/byteshard-locale/zipball/c02934390fe5eead28f4e6b63c70047c316c88bf",
+                "reference": "c02934390fe5eead28f4e6b63c70047c316c88bf",
                 "shasum": ""
             },
             "require": {
@@ -87,23 +87,23 @@
             ],
             "description": "Locale components for the byteShard framework",
             "support": {
-                "issues": "https://github.com/byteshard/locale/issues",
-                "source": "https://github.com/byteshard/locale/tree/v1.0.1"
+                "issues": "https://github.com/bespin-studios/byteshard-locale/issues",
+                "source": "https://github.com/bespin-studios/byteshard-locale/tree/v1.0.1"
             },
             "time": "2023-05-08T13:24:26+00:00"
         },
         {
             "name": "psr/log",
-            "version": "3.0.0",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001"
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
                 "shasum": ""
             },
             "require": {
@@ -138,28 +138,28 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/3.0.0"
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
             },
-            "time": "2021-07-14T16:46:02+00:00"
+            "time": "2024-09-11T13:17:53+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.14",
+            "version": "2.1.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "d232901b09e67538e5c86a724be841bea5768a7c"
+                "reference": "b8c1cf533cba0c305d91c6ccd23f3dd0566ba5f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d232901b09e67538e5c86a724be841bea5768a7c",
-                "reference": "d232901b09e67538e5c86a724be841bea5768a7c",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b8c1cf533cba0c305d91c6ccd23f3dd0566ba5f9",
+                "reference": "b8c1cf533cba0c305d91c6ccd23f3dd0566ba5f9",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2|^8.0"
+                "php": "^7.4|^8.0"
             },
             "conflict": {
                 "phpstan/phpstan-shim": "*"
@@ -198,23 +198,19 @@
                 {
                     "url": "https://github.com/phpstan",
                     "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
-                    "type": "tidelift"
                 }
             ],
-            "time": "2023-04-19T13:47:27+00:00"
+            "time": "2025-05-16T09:40:10+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.1"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
